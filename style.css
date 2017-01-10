@@ -25,7 +25,12 @@ text-shadow: 3px 3px 8px #BF7F00, -3px -3px 8px #BF7F00 }
   margin-left: 30px;
   margin-bottom: 30px;
   width: 200px;
+  padding-left: 7px;
 }
+.button-wrapper {
+  padding-left: 12px;
+}
+
 p, .effect {
 color: white;
 text-shadow: 3px 3px 8px #BF7F00, -3px -3px 8px #BF7F00 }{
