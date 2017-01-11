@@ -1,6 +1,43 @@
 .game-canvas {
-  border: 1px dashed;
-  margin: auto;
   display: block;
+  margin: auto;
+  border: 4px solid gold;
   background: green;
+}
+
+body {
+  font-family: 'ABeeZee', sans-serif;
+  background-image: url('images/casinoBackground.jpg');
+}
+
+h1 {
+  display: flex;
+  position: fixed;
+  margin: auto;
+  align-items: center;
+  justify-content: center;
+  padding-left: 20px;
+  padding-top: 20px;
+  font-size: 3em;
+}
+.effect {
+color: white;
+text-shadow: 3px 3px 8px #BF7F00, -3px -3px 8px #BF7F00 }
+
+.wrapper {
+  margin-bottom: 30px;
+  margin-left: 30px;
+  background: rgba(255,255,255,.2);
+  padding-left: 7px;
+  width: 200px;
+}
+.button-wrapper {
+  padding-left: 12px;
+}
+
+p, .effect {
+padding-left: 10px;
+color: white;
+text-shadow: 3px 3px 8px #BF7F00, -3px -3px 8px #BF7F00 }{
+font-size: 16px;
 }

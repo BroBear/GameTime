@@ -60,7 +60,6 @@
 
 	Card.prototype.Deal = function () {
 	  var card = Math.floor(Math.random() * 52 + 1);
-	  console.log(card);
 	};
 
 	Card.prototype.drawCards = function () {
