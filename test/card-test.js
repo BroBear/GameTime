@@ -14,5 +14,8 @@ describe('Card', function () {
       assert.equal(card.y,10);
   });
 
-
+  it('should have a method called "create()"', function () {
+    var card = new Card(15, 30);
+    assert.isFunction(card.create);
+  });
 })
