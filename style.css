@@ -7,13 +7,18 @@
 
 body {
   font-family: 'ABeeZee', sans-serif;
-  margin: auto;
   background-image: url('images/casinoBackground.jpg');
 }
 
 h1 {
   font-family: 'ABeeZee', sans-serif;
+  display: flex;
+  position: fixed;
+  align-items: center;
+  justify-content: center;
   margin: auto;
+  padding-top: 20px;
+  padding-left: 20px;
   font-size: 3em;
 }
 .effect {

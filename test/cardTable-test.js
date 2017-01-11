@@ -9,7 +9,6 @@ describe('CardTable', function () {
 
   it('should have an height and width', function () {
       var cardTable = new CardTable(10,10);
-      console.log(cardTable.width);
       assert.equal(cardTable.width, 10);
       assert.equal(cardTable.height,10);
   });
